@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Ember & Oak",
+    "slug": "restaurant-site",
+    "version": "1.0.0",
+    "backgroundColor": "#1B0B06",
+    "primaryColor": "#C84C2A",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "Ember & Oak",
+      "description": "Restaurant booking and online ordering",
+      "themeColor": "#D97706",
+      "lang": "en"
+    },
+    "android": {
+      "package": "com.redsitesoftware.restaurantSite"
+    },
+    "ios": {
+      "bundleIdentifier": "com.redsitesoftware.restaurantSite"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dc689615-67fc-41ab-b1c6-f4fb328279fc"
+      }
+    },
+    "owner": "zx10r06",
+    "description": "Restaurant booking and online ordering"
+  }
+}
